@@ -214,14 +214,14 @@ footer {
     margin-bottom: 50px;
 }
 
-.name-team {
+.team-flex__name {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
 }
 
-.profession-team {
+.team-flex__profession {
     font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -348,14 +348,14 @@ header {
     margin-left: -30px;
 }
 
-.team-flex-item {
+.team-flex__item {
     margin-left: 30px;
     flex-basis: calc((100% - 90px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-flex-item>img {
+.team-flex__item>img {
     width: 100%;
 }
 
@@ -429,7 +429,7 @@ address {
     padding-bottom: 94px;
 }
 
-.team-icons a {
+.flex-icons__item a {
     width: 44px;
     height: 44px;
     display: inline-block;
@@ -440,21 +440,21 @@ address {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icons a:hover {
+.flex-icons__item a:hover {
     background-color: var(--active-color);
     color: var(--main-color);
 }
 
-.team-icons a:focus {
+.flex-icons__item a:focus {
     background-color: var(--active-color);
     color: var(--main-color);
 }
 
-.team-icons a svg {
+.flex-icons__item a svg {
     fill: currentColor;
 }
 
-.team-icons:last-child {
+.flex-icons__item:last-child {
     margin-right: 0;
 }
 
