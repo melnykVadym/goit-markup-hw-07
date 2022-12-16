@@ -9,4 +9,7 @@
     &__text {
         color: var(--active-color);
     }
+    &--light {
+        color: var(--main-color);
+    }
 }

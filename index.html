@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -66,7 +66,7 @@
         <button data-modal-open class="order__button" type="button">
           Замовити послугу
         </button>
-        <div class="order__backdrop is-hidden" data-modal>
+        <div class="order__backdrop order__backdrop--hidden" data-modal>
           <div class="modal">
             <button class="modal__close" data-modal-close>
               <svg width="30" height="30">
@@ -116,7 +116,7 @@
                 placeholder="Введіть текст"
                 id="user-text"
                 name="user-text"
-                class="form__input form__textarea"
+                class="form__textarea"
                 cols="30"
                 rows="5"
               ></textarea>
@@ -191,21 +191,23 @@
               </p>
             </li>
           </ul>
-          <h2 class="job job__title">Чим ми займаємося</h2>
-          <ul class="list job__box">
-            <li class="item box__item">
-              <img src="./images/job1.jpg" alt="work" width="370" />
-              <div class="job__description">Десктопні додатки</div>
-            </li>
-            <li class="item box__item">
-              <img src="./images/job2.jpg" alt="work" width="370" />
-              <div class="job__description">Мобільні додатки</div>
-            </li>
-            <li class="item box__item">
-              <img src="./images/job3.jpg" alt="work" width="370" />
-              <div class="job__description">Дизайнерські рішення</div>
-            </li>
-          </ul>
+          <div class="job">
+            <h2 class="job__title">Чим ми займаємося</h2>
+            <ul class="list job__box">
+              <li class="item box__item">
+                <img src="./images/job1.jpg" alt="work" width="370" />
+                <div class="job__description">Десктопні додатки</div>
+              </li>
+              <li class="item box__item">
+                <img src="./images/job2.jpg" alt="work" width="370" />
+                <div class="job__description">Мобільні додатки</div>
+              </li>
+              <li class="item box__item">
+                <img src="./images/job3.jpg" alt="work" width="370" />
+                <div class="job__description">Дизайнерські рішення</div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="team section">
@@ -365,44 +367,44 @@
       </section>
       <section class="section clients">
         <div class="container">
-          <h2 class="clients_title">Постійні клієнти</h2>
-          <ul class="list clients-wrapper">
-            <li class="clients_element">
+          <h2 class="clients__title">Постійні клієнти</h2>
+          <ul class="list clients__wrapper">
+            <li class="clients__element">
               <a href="">
                 <svg width="41" height="46">
                   <use href="./images/icons.svg#icon-group"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_element">
+            <li class="clients__element">
               <a href="">
                 <svg width="40" height="52">
                   <use href="./images/icons.svg#icon-group2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_element">
+            <li class="clients__element">
               <a href="">
                 <svg width="43" height="41">
                   <use href="./images/icons.svg#icon-group3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_element">
+            <li class="clients__element">
               <a href="">
                 <svg width="84" height="40">
                   <use href="./images/icons.svg#icon-group4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_element">
+            <li class="clients__element">
               <a href="">
                 <svg width="62" height="45">
                   <use href="./images/icons.svg#icon-group5"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients_element">
+            <li class="clients__element">
               <a href="">
                 <svg width="93" height="43">
                   <use href="./images/icons.svg#icon-group1"></use>
